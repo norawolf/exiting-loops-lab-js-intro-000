@@ -24,10 +24,9 @@ function findBy(array, findFn) {
   for (let i = 0; i < array.length; i++) {
     if (findFn(array[i])) {
       return array[i]
-    } else {
-      return null;
-    }
+    } 
   }
+  return null;
 }
 
 //findBy(array, findFn) which looks for a value in array based on the return value of findFn.
