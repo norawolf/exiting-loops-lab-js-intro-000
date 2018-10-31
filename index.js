@@ -4,9 +4,10 @@ function breakOut(array, changeValue, stopValue) {
   if (i != stopValue) {
   for (i = 0; i < array.length; i++) {
     array[i] = changeValue;
+  }
   } else {
     break;
   }
 return array;
 }
-}
+
