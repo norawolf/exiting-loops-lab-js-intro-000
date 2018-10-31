@@ -4,8 +4,8 @@ function breakOut(array, changeValue, stopValue) {
     array[i] = changeValue;
     if (i === stopValue) {
      break;
-     return array;
+     
     }
-
+return array;
   }
 }
